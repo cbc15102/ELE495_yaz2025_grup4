@@ -5,7 +5,7 @@ import json
 import os
 
 # OpenAI istemcisi
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", "sk-xxxxxxxxxxxxxxxxxxxxxxxx"))
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", "sk-xxxxxxxxxxxxxxxxxxxxxxx"))
 
 # --- Pydantic modeli ---
 class RobotCommand(BaseModel):
