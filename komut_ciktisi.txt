@@ -1,0 +1,15 @@
+[
+  {
+    "action": "move_forward",
+    "distance_m": 3.0
+  },
+  {
+    "action": "turn",
+    "direction": "right",
+    "angle_deg": 90.0
+  },
+  {
+    "action": "move_forward",
+    "distance_m": 5.0
+  }
+]
